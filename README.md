@@ -1,12 +1,14 @@
 # mac-and-bay
 
 ## Description
-
+This repo contains all the code for a fully functioning backend of a small e-commerce site. I wanted to design an api that follows RESTful practices. It stores product, category and tag data using mysql and sequelize models. I ran into some difficulties building the models and properly assigning foreign keys but got it all squared away. Through those challenges i learned alot about sequelize model structure.
 ## Installation
-
+To install the necessary packages, run "npm I" in your terminal.
 ## Usage
-
+To initiate the database, log into mysql and source the schema file to create the database. After that, exit mysql and seed the database by running the command "npm run seed" in your terminal. Once the database is seeded, initialize the application with the command "node server.js" to begin listening.
 ## Credits
+i referenced the sequelize documentation frequently 
+https://sequelize.org/docs/v6/
 
 ## License
 The MIT License (MIT)
