@@ -5,7 +5,7 @@ This repo contains all the code for a fully functioning backend of a small e-com
 ## Installation
 To install the necessary packages, run "npm I" in your terminal.
 ## Usage
-Here is a link to a walkthrough video of the app using insomnia to test:  https://drive.google.com/file/d/1Ci8G7WDXhw8j_gNeEpynMEFzaS58Ih4n/view
+Here is a link to a walkthrough video of the app using insomnia to test:  https://drive.google.com/file/d/1k6QBIfkaaRCaIUTEKOE6hEznMO48AaMU/view
 
 To initiate the database, log into mysql and source the schema file to create the database. After that, exit mysql and seed the database by running the command "npm run seed" in your terminal. Once the database is seeded, initialize the application with the command "node server.js" to begin listening.
 ## Credits
